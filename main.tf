@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "profx-prod-rg"
-  location = "eastus"
+  name     = var.rg_name
+  location = var.location
 }
